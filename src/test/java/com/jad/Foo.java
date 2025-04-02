@@ -37,7 +37,8 @@ public class Foo {
     public Foo(Bar bar) {
         this.bar = bar;
         this.qux = new Qux();
-        this.bazs = new ArrayList<Baz>();
+        this.bazs = new ArrayList<>();
+        this.graults = new ArrayList<>();
     }
 
     public void addBaz(Baz baz) {
